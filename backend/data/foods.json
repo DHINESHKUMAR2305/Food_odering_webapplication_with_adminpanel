@@ -1,0 +1,38 @@
+
+[
+  {
+    "name": "Chicken Burger",
+    "price": 120,
+    "desc": "Crispy chicken burger",
+    "image": "https://source.unsplash.com/300x200/?burger",
+    "restaurantId": "REPLACE_WITH_A2B_ID"
+  },
+  {
+    "name": "Veg Pizza",
+    "price": 250,
+    "desc": "Cheesy veg pizza",
+    "image": "https://source.unsplash.com/300x200/?pizza",
+    "restaurantId": "REPLACE_WITH_DOMINOS_ID"
+  },
+  {
+    "name": "Fried Chicken",
+    "price": 300,
+    "desc": "Spicy fried chicken",
+    "image": "https://source.unsplash.com/300x200/?fried-chicken",
+    "restaurantId": "REPLACE_WITH_KFC_ID"
+  },
+  {
+    "name": "Paneer Roll",
+    "price": 150,
+    "desc": "Delicious paneer roll",
+    "image": "https://source.unsplash.com/300x200/?roll",
+    "restaurantId": "REPLACE_WITH_A2B_ID"
+  },
+  {
+    "name": "French Fries",
+    "price": 100,
+    "desc": "Crispy fries",
+    "image": "https://source.unsplash.com/300x200/?fries",
+    "restaurantId": "REPLACE_WITH_KFC_ID"
+  }
+]
