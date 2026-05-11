@@ -1,0 +1,71 @@
+.admin-dashboard {
+  min-height: 80vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.admin-dashboard h2 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.admin-btns {
+  display: flex;
+  gap: 20px;
+}
+
+.admin-btns button {
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.admin-btns button:nth-child(1) {
+  background: linear-gradient(135deg, #ff9a9e, #ff6a88);
+}
+
+.admin-btns button:nth-child(2) {
+  background: linear-gradient(135deg, #42e695, #3bb2b8);
+}
+
+.admin-btns button:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+  .admin-btns {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .admin-btns button {
+    width: 80%;
+  }
+
+  .admin-dashboard h2 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-btns button {
+    width: 90%;
+    padding: 12px;
+    font-size: 14px;
+  }
+}

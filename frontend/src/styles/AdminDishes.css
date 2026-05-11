@@ -1,0 +1,151 @@
+
+.admin-dishes {
+  padding: 20px;
+  background: #f4f6f9;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.admin-dishes h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.add-box input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 180px;
+  transition: 0.3s;
+}
+
+.add-box input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+.add-box button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-box button:hover {
+  background: #218838;
+}
+
+.admin-dishes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dish-card {
+  width: 300px;
+  background: white;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.dish-card:hover {
+  transform: translateY(-5px);
+}
+
+.dish-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.dish-card h4 {
+  margin: 10px 0 5px;
+  color: #222;
+}
+
+.dish-card p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.dish-card button {
+  margin: 5px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+
+.dish-card button:first-of-type {
+  background: #007bff;
+}
+
+.dish-card button:first-of-type:hover {
+  background: #0056b3;
+}
+
+.dish-card button:last-of-type {
+  background: #dc3545;
+}
+
+.dish-card button:last-of-type:hover {
+  background: #b02a37;
+}
+
+@media (max-width: 768px) {
+
+  .add-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .add-box input {
+    width: 90%;
+  }
+
+  .add-box button {
+    width: 90%;
+  }
+
+  .dish-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .admin-dishes h2 {
+    font-size: 20px;
+  }
+
+  .dish-card img {
+    height: 150px;
+  }
+
+  .dish-card {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,19 @@
+.fo-login {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.fo-input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+.fo-btn {
+  width: 100%;
+  padding: 10px;
+  background: blue;
+  color: white;
+  border: none;
+}

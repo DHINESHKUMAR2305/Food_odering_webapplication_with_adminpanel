@@ -1,0 +1,78 @@
+.fo-home {
+  padding: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.fo-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.fo-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.fo-card:hover {
+  transform: translateY(-5px);
+}
+
+.fo-food-name {
+  margin-bottom: 5px;
+}
+
+.fo-price {
+  color: green;
+  font-weight: bold;
+}
+.fo-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.fo-counter button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.fo-counter span {
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .fo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .fo-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fo-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}

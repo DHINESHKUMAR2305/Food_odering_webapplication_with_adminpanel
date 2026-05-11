@@ -1,0 +1,82 @@
+.fo-orders {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.fo-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fo-order-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.fo-order-card:hover {
+  transform: scale(1.01);
+}
+
+.fo-order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fo-total {
+  font-weight: bold;
+  color: green;
+  font-size: 18px;
+}
+
+.fo-date {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.fo-items {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.fo-item-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.fo-extra {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .fo-order-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+  }
+
+  .fo-item-row {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.yyy 
+{
+    text-align: center;
+    padding: 40px;
+    color: rgb(199, 118, 118);
+}
